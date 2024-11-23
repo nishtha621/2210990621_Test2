@@ -12,10 +12,6 @@ class AddEditMealTableViewController: UITableViewController, UIImagePickerContro
     var meals: [Meal] = [Meal(recipeName: "Pizza", calorieCount: 500, preperationTime: 50),
     Meal(recipeName: "Dhokla", calorieCount: 300, preperationTime: 20)]
     
-    
-    required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
